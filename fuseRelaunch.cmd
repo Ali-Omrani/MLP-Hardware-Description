@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/CADCA5/dp_tb_isim_beh.exe" -prj "D:/CADCA5/dp_tb_beh.prj" "work.dp_tb" 

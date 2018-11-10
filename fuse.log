@@ -1,0 +1,49 @@
+Running: D:\Programs\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/CADCA5/dp_tb_isim_beh.exe -prj D:/CADCA5/dp_tb_beh.prj work.dp_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/CADCA5/Fixed Point Package.vhd" into library work
+Parsing VHDL file "D:/CADCA5/ROM.vhd" into library work
+Parsing VHDL file "D:/CADCA5/Register.vhd" into library work
+Parsing VHDL file "D:/CADCA5/RAM.vhd" into library work
+Parsing VHDL file "D:/CADCA5/Multiplier.vhd" into library work
+Parsing VHDL file "D:/CADCA5/input_ROM.vhd" into library work
+Parsing VHDL file "D:/CADCA5/Counter.vhd" into library work
+Parsing VHDL file "D:/CADCA5/Controller2.vhd" into library work
+Parsing VHDL file "D:/CADCA5/Controller.vhd" into library work
+Parsing VHDL file "D:/CADCA5/Adder.vhd" into library work
+Parsing VHDL file "D:/CADCA5/Activation Function.vhd" into library work
+Parsing VHDL file "D:/CADCA5/layer2.vhd" into library work
+Parsing VHDL file "D:/CADCA5/layer1.vhd" into library work
+Parsing VHDL file "D:/CADCA5/datapath.vhd" into library work
+Parsing VHDL file "D:/CADCA5/dp_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package fixed_point_package
+Compiling package fixed_point_array_pkg
+Compiling architecture behavioral of entity Multiplier [multiplier_default]
+Compiling architecture behavioral of entity Adder [adder_default]
+Compiling architecture behavioral of entity My_Register [my_register_default]
+Compiling architecture behavioral of entity activation_func [activation_func_default]
+Compiling architecture test of entity input_ROM [\input_ROM(4)\]
+Compiling architecture weight_test1 of entity ROM [\ROM(2,4)\]
+Compiling architecture behavioral of entity counter [counter_default]
+Compiling architecture layer1_ctrl of entity controller [controller_default]
+Compiling architecture test of entity layer1 [\layer1(4,2)\]
+Compiling architecture input of entity RAM [\RAM(2)\]
+Compiling architecture weight_test2 of entity ROM [\ROM(2,2)\]
+Compiling architecture layer2_ctrl of entity controller2 [controller2_default]
+Compiling architecture test of entity layer2 [\layer2(2,2)\]
+Compiling architecture test of entity datapath [datapath_default]
+Compiling architecture behavior of entity dp_tb
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 35 VHDL Units
+Built simulation executable D:/CADCA5/dp_tb_isim_beh.exe
+Fuse Memory Usage: 35160 KB
+Fuse CPU Usage: 500 ms
